@@ -6,6 +6,7 @@ description: I write code and make stuff
 # Url is currently only used only for the RSS feed in feed.xml
 # nope, its used all over the site and makes things break :(
 # url: https://leo.adamek.me
+url: /
 
 # For a project page here should be a project name. Otherwise (for user's/organizaion's page leave it empty)
 baseurl:
