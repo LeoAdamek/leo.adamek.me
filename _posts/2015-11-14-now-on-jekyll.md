@@ -39,7 +39,10 @@ Using Jekyll, and a git based deployment process means that deploying changes
 to the site is simple and easy, and I can do it anywhere thanks to github's
 online editor. I only need to be logged into my github account in order to
 make changes or write a new post.
-I'll be setting up a webhook to then deploy the updated site to my server.
+
+Currently, I'm using a git hook to rebuild the site and publish the changes,
+this is triggered by a git push to my server.
+
 
 ## Warp Speed
 
