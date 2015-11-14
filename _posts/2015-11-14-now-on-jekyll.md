@@ -43,6 +43,9 @@ make changes or write a new post.
 Currently, I'm using a git hook to rebuild the site and publish the changes,
 this is triggered by a git push to my server.
 
+This script clones the repo from github to a temporary directory,
+builds it to the public directory, then deletes the temporary copy.
+
 
 ## Warp Speed
 
