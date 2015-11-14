@@ -46,6 +46,8 @@ this is triggered by a git push to my server.
 This script clones the repo from github to a temporary directory,
 builds it to the public directory, then deletes the temporary copy.
 
+My next post will probably be about this deployment mechanism.
+
 
 ## Warp Speed
 
