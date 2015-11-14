@@ -1,21 +1,18 @@
 # Jekyll configuration
 
-name: Blog Name
-description: Software Developer
+name: Leo Adamek
+description: I write code and make stuff
 
 # Url is currently only used only for the RSS feed in feed.xml
-url: http://streetturtle.github.io
-#url: http://localhost:4000
+#url: https://localhost:4000
+url: http://localhost:4000
 
 # For a project page here should be a project name. Otherwise (for user's/organizaion's page leave it empty)
-baseurl: '/jekyll-clean-dark'
+baseurl:
 
 social:
-  github: streetturtle
-  stackoverflow: ''
-  linkedin: ''
-  instagram: ''
-  lastfm: ''
+  github: LeoAdamek
+  twitter: LeoAdamek
   rss: feed.xml
 
 # Google Analytics key, leave blank to ignore
@@ -27,7 +24,7 @@ yandex_metrika:
 # Set this to your disqus shortname to enable comments. Note that the 'comments'
 # setting below must also be true. Individual posts can override 'comments' to
 # disable on a post-by-post basis
-disqus: streetturtle
+disqus: LeoAdamek
 comments: true
 
 permalink: /:year/:month/:title
@@ -36,6 +33,13 @@ paginate: 3
 highlighter: pygments
 markdown: redcarpet
 redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+  extensions:
+    - "no_intra_emphasis"
+    - "fenced_code_blocks"
+    - "autolink"
+    - "tables"
+    - "with_toc_data"
 
-exclude: ['README.md', 'LICENSE']
+exclude:
+  - 'README.md'
+  - 'LICENSE'
