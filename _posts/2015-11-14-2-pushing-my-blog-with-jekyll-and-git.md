@@ -31,7 +31,7 @@ I push these changes to github.
 I then also trigger a push of the site independently using a git remote set up
 on the server:
 
-~~~~shell
+~~~~bash
 git push site	
 ~~~~
 
@@ -49,7 +49,7 @@ In this script, I perform the following actions:
 All this is handled by a simple shell script of about 20 lines:
 
 
-~~~~shell
+~~~~bash
 echo "jekyll_build: cloning $GIT_REPO to $TMP_CLONE"
 git clone $GIT_REPO $TMP_CLONE
 
