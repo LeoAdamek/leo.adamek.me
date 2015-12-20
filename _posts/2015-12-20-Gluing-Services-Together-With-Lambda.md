@@ -52,8 +52,7 @@ then the following rules should be applied to the AWS policy:
 Thus the policy document for such a role would look like the following:
 
 
-````javascript
-
+~~~~javascript
 [
   {
     "Statement" : "AllowGetObjectForImageBucket",
@@ -72,8 +71,7 @@ Thus the policy document for such a role would look like the following:
     "Resource" : "arn:aws:dynamodb:REGION:accountID:exifDataTable"
     }
 ]
-
-````
+~~~~
 
 Note: I've not actually verified the validity of this policy document, I think the ARN values for Dynamodb tables, and action
 for `PutItem` may be different to what is shown here, this is an illustrative guide only.
